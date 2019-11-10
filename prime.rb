@@ -2,8 +2,10 @@ def prime?(number)         # Add  code here!
  
     if number <= 1         # number that are false 0 and 1 itself 
     return false 
-    else 
-      (2...number-1).each { |int| #return false if number % int == 0
+    elsif 
+      (2...number-1).each { |int| 
+      if number % int == 0
+        return false 
       }
 #range of numbers - 1 from the number itself 
      true  
