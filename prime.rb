@@ -4,9 +4,9 @@ def prime?(number)         # Add  code here!
     return false 
     elsif 
       (2...number-1).each { |int| 
-      if number % int == 0
+      if number % int == 0}
         return false 
-      }
+  
 #range of numbers - 1 from the number itself 
      true  
    end  
